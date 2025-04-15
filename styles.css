@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fef9ff, #e1f7f5);
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #7F00FF, #E100FF);
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.2em;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: #ff6f61;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .menu li a:hover {
+    color: #ffd700;
+  }
+  
+  .section {
+    padding: 2em;
+    margin: 1em;
+    border-radius: 10px;
+    background-color: #ffffffdd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section h2 {
+    color: #7f00ff;
+  }
+  
+  .galeria {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .galeria img {
+    border: 4px solid #ff6f61;
+    border-radius: 12px;
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+    font-size: 0.95em;
+    margin-top: 2em;
+  }
+  
+  footer a {
+    color: #ffd700;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
